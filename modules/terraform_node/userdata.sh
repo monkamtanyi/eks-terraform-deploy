@@ -4,7 +4,7 @@ echo "Installing java packages........"
 sudo apt-get update -y
 sudo apt-get install openjdk-21-jdk -y
 
-#Installing aws cli
+#Installing aws cli  - Linux : google - install awscli
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
